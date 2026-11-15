@@ -30,16 +30,8 @@ button.lang:hover,button.lang:focus-visible{background:var(--soft)}
 <p class="choose">Alege limba &middot; Choisis ta langue</p>
 <div class="btns">
 <a class="lang" href="ro/" hreflang="ro">Română</a>
-<button class="lang" type="button" id="fr" aria-controls="frmsg" aria-expanded="false">Français</button>
-</div>
-<div class="msg" id="frmsg" role="status" hidden>
-<b>La version française est en construction.</b><br>Elle sera bientôt disponible. Merci de ta patience !
+<a class="lang" href="fr/" hreflang="fr">Français</a>
 </div>
 <p class="foot">Versiune de test &middot; Version de test</p>
 </main>
-<script>
-document.getElementById('fr').addEventListener('click',function(){
-  var m=document.getElementById('frmsg');m.hidden=false;this.setAttribute('aria-expanded','true');
-});
-</script>
 </body></html>
